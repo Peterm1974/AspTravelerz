@@ -42,7 +42,7 @@ namespace AspTravelerz
             //    RequestPath = new PathString("/StaticFiles")
             //});
 
-            //test zzz
+            //test zzz xxx
 
             app.UseStaticFiles(new StaticFileOptions()
             {
