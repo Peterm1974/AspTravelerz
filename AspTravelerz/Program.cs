@@ -12,6 +12,8 @@ namespace AspTravelerz
 {
     public class Program
     {
+        public static IConfigurationRoot Configuration { get; set; }
+
         public static void Main(string[] args)
         {
             BuildWebHost(args).Run();
